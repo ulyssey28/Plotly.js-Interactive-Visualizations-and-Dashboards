@@ -96,7 +96,8 @@ function buildCharts(sample) {
   text: data.otu_labels,
   type: "scatter",
   marker: {
-    color: data.otu_ids.map(d => `rgb(${d * 9}, ${d/ 5}, ${d / 100})`),
+    // color: data.otu_ids.map(d => `rgb(${d * 9}, ${d/ 5}, ${d / 100})`)
+    color: data.otu_ids,
     size: data.sample_values
   }
 };
