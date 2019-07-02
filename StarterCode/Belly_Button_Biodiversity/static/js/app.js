@@ -65,6 +65,7 @@ console.log(data.otu_labels.slice(0, 10))
 var trace2 = {
   labels: data.otu_ids.slice(0, 10),
   values: data.sample_values.slice(0, 10),
+  text: data.otu_labels.slice(0, 10),
   type: 'pie'
 };
 
